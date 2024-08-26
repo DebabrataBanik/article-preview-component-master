@@ -3,12 +3,12 @@
 This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT).
 
 ## Table of contents
-- Description[#description]
-- Screenshot[#screenshot]
-- Links[#links]
-- Built with[#built-with]
-- What I learned[#what-i-learned]
-- Continued development[#continued-development]
+- [Description](#description)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
 
 ### Description
 
