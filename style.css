@@ -33,6 +33,7 @@ img{
   width: 85%;
   /* margin-inline: auto; */
   padding-block: 5rem;
+  max-width: 24.53rem;
 }
 
 .card{
@@ -58,25 +59,23 @@ img{
   color: var(--very-dark-grayish-blue);
 }
 h1{
-  padding-inline: 2rem;
-  font-size: 1.3rem;
+  padding-inline: 2.25rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 p{
-  padding-inline: 2rem;
+  padding-inline: 2.25rem;
   color: var(--desaturated-dark-blue);
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.015rem;
   line-height: 1.5;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 footer{
-  /* display: none; */
-  padding-inline: 2rem;
-  padding-bottom: 2rem;
   display: flex;
+  padding-inline: 2.25rem;
+  padding-bottom: 2rem;
   align-items: center;
-  /* justify-content: space-between; */
 }
 footer img{
   width: 40px;
@@ -96,6 +95,7 @@ footer span{
 button img{
   /* border-radius: 50%; */
   width: 17px;
+  margin: 0;
 }
 button{
   margin-left: auto;
@@ -104,19 +104,63 @@ button{
   border-radius: 50%;
   border: none;
   background-color: var(--light-grayish-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .active-state__display{
-  display: flex;
+  display: none;
   align-items: center;
-  justify-content: space-between;
   background-color: var(--very-dark-grayish-blue);
-  padding: 1.2rem 2rem;
+  padding: 1.35rem 2rem;
   color:  var(--grayish-blue);
 }
 .active-state__display span{
   letter-spacing: 0.4rem;
+  margin-right: 1rem;
+}
+.links{
+  display: flex;
+  gap: 1.2rem;
+}
+.links img{
+  cursor: pointer;
+  width: 20px;
 }
 .active-state--btn{
-  margin: 0;
+  width: 28px;
+  background-color: var(--grayish-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.active-state--btn img{
+  /* TODO: conver color to white */
+  filter: grayscale(100%);
+}
+
+@media (min-width: 37.5rem){
+  .container{
+    /* flex-direction: row; */
+    max-width: 52rem;
+  }
+  .card{
+    flex-direction: row;
+  }
+  .img__container{
+    width: 40%;
+    height: auto;
+  }
+  .img__container img{
+    object-position: left;
+  }
+  h1{
+    font-size: 1.45rem;
+    margin-top: 0;
+  }
+  .article__container{
+    width: 60%;
+  }
 }
