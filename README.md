@@ -20,8 +20,8 @@ Users should be able to view the optimal layout for the component depending on t
 
 ### Links
 
-- [Live Site URL]()
-- [Solution URL]()
+- [Live Site URL](https://debabratabanik.github.io/article-preview-component-master/)
+- [Solution URL](https://www.frontendmentor.io/solutions/article-preview-component-master-_0XkFeWVLb)
 
 ### Built with
 
@@ -31,3 +31,11 @@ Users should be able to view the optimal layout for the component depending on t
 - CSS Grid
 - Mobile-first workflow
 
+### What I learned
+
+Use of different css selectors and psuedo classes and elements to achieve the desired layout. Using nested css for psuedo elements. Also I used psuedo class ```:has()``` 
+to target certain specific elements. 
+
+### Continued development
+
+Further development would be building the same project using some frameworks like React. Improving the hover states of the social links and interactivity. 

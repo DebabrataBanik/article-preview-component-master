@@ -174,7 +174,7 @@ button{
 
 @media (min-width: 37.5rem){
   .container{
-    max-width: 52rem;
+    max-width: 53rem;
   }
   .card{
     flex-direction: row;
