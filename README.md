@@ -33,8 +33,7 @@ Users should be able to view the optimal layout for the component depending on t
 
 ### What I learned
 
-Use of different css selectors and psuedo classes and elements to achieve the desired layout. Using nested css for psuedo elements. Also I used psuedo class ```:has()``` 
-to target certain specific elements. 
+Use of different css selectors and psuedo classes and elements to achieve the desired layout. Using nested css for psuedo elements.
 
 ### Continued development
 
